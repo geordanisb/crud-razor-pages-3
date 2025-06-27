@@ -45,3 +45,4 @@
 /Users/geordanisb.vega/RiderProjects/RazorPagesTezt/UI/bin/Debug/net8.0/Infrastructure.pdb
 /Users/geordanisb.vega/RiderProjects/RazorPagesTezt/UI/bin/Debug/net8.0/Domain.pdb
 /Users/geordanisb.vega/RiderProjects/RazorPagesTezt/UI/obj/Debug/net8.0/UI.csproj.CopyComplete
+/Users/geordanisb.vega/RiderProjects/RazorPagesTezt/UI/obj/Debug/net8.0/UI.sourcelink.json

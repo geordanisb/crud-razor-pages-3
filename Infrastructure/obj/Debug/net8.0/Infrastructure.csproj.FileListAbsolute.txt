@@ -17,3 +17,4 @@
 /Users/geordanisb.vega/RiderProjects/RazorPagesTezt/Infrastructure/obj/Debug/net8.0/ref/Infrastructure.dll
 /Users/geordanisb.vega/RiderProjects/RazorPagesTezt/Infrastructure/bin/Debug/net8.0/Application.dll
 /Users/geordanisb.vega/RiderProjects/RazorPagesTezt/Infrastructure/bin/Debug/net8.0/Application.pdb
+/Users/geordanisb.vega/RiderProjects/RazorPagesTezt/Infrastructure/obj/Debug/net8.0/Infrastructure.sourcelink.json

@@ -29,19 +29,9 @@
             
        <div class="col-sm-12 d-flex flex-row gap-2 ">
             <label for="active">Is Active</label>
-            <input type="checkbox"  name="active" id="active" @(Model?.employer != null && Model.employer.Active ? "checked" : "")  />
+            <input asp-for="employer.Active" name="active"/>
         </div>
         
-        <!--<div class="col-sm-12 d-flex flex-row gap-2 ">
-            <div>
-                <label for="active">Is Active</label>
-                <input type="radio" name="active" id="active" value=@(true) />
-            </div>
-            <div>
-                <label for="nonactive">Non Active</label>
-                <input type="radio" name="active" id="nonactive" value=@(false) />
-            </div>
-        </div>-->
         
         <div class="col-12">
             <button type="submit" class="btn btn-primary btn-lg w-50">
