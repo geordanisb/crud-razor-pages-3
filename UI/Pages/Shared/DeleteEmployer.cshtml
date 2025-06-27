@@ -1,0 +1,16 @@
+@page "/delete-employer/{id:int}"
+@model RazorPagesTezt.Pages.Shared.DeleteEmployer
+
+@{
+    
+}
+<div class="alert alert-danger">
+    <p >Are you sure you want to delete the employer: @(Model?.Employer?.Name)?</p>
+    <div class="d-flex gap-3">
+        <a href="/" class="btn btn-primary">Cancel</a>
+        <form method="post">
+            <button type="submit" class="btn btn-danger">Accept</button>    
+        </form>    
+    </div>
+</div>
+

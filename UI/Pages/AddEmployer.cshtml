@@ -1,0 +1,13 @@
+@page "/add-employer"
+@using Application.Interfaces
+@using Microsoft.AspNetCore.Components.Web
+@using UI.ViewComponents;
+@model AddEmployer
+@inject IEmployerRepository EmployerRepository
+
+@{
+    <a href="/" class="btn btn-sm btn-secondary">Back</a>
+    @await Component.InvokeAsync("EmployerForm",new EmployerFormModel{IsEdit = false})
+        
+    
+}

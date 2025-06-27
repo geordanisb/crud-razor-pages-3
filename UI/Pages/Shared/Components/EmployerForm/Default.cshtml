@@ -1,0 +1,60 @@
+
+@model UI.ViewComponents.EmployerFormModel
+@{
+    Layout = null;
+}
+
+<div class="d-flex justify-content-center">
+    <form method="post" class="d-flex flex-column gap-3" style="width: 370px; font-size: 1.2rem">
+            
+        <div class="col-sm-12 d-flex flex-column gap-2 ">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" value=@(Model?.employer?.Name) />
+        </div>
+            
+        <div class="col-sm-12 d-flex flex-column gap-2 ">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" value=@(Model?.employer?.Email) />
+        </div>
+            
+        <div class="col-sm-12 d-flex flex-column gap-2 ">
+            <label for="area">Area</label>
+            <input type="text" name="area" id="area" value=@(Model?.employer?.Area) />
+        </div>
+            
+        <div class="col-sm-12 d-flex flex-column gap-2 ">
+            <label for="start-date">Start Date</label>
+            <input type="date"  name="startDate" id="startDate" value=@(Model?.employer?.StartDate.ToString("yyyy-MM-dd")) />
+        </div>
+            
+       <div class="col-sm-12 d-flex flex-row gap-2 ">
+            <label for="active">Is Active</label>
+            <input type="checkbox"  name="active" id="active" @(Model?.employer != null && Model.employer.Active ? "checked" : "")  />
+        </div>
+        
+        <!--<div class="col-sm-12 d-flex flex-row gap-2 ">
+            <div>
+                <label for="active">Is Active</label>
+                <input type="radio" name="active" id="active" value=@(true) />
+            </div>
+            <div>
+                <label for="nonactive">Non Active</label>
+                <input type="radio" name="active" id="nonactive" value=@(false) />
+            </div>
+        </div>-->
+        
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary btn-lg w-50">
+                @if (Model.IsEdit)
+                {
+                    <span>Update</span>
+                }
+                else
+                {
+                    <span>Add</span>
+                }
+            </button>
+        </div>
+
+    </form>
+</div>

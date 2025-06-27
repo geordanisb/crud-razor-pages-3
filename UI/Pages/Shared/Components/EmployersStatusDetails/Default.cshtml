@@ -1,0 +1,10 @@
+@model UI.ViewComponents.EmployersStatusDetailsModel
+
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<div class="flex flex-row gap-3 py-5">
+    <p class="bg-primary text-white p-3 d-inline">Actives <span>@Model.qtyActives employers</span></p>
+    <p class="bg-danger text-white p-3 d-inline">Non Actives <span>@Model.qtyNonActives employers</span></p>
+</div>

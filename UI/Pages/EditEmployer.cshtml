@@ -1,0 +1,12 @@
+@page "/edit-employer/{id:int}"
+@using UI.ViewComponents
+@model UI.Pages.EditEmployer
+
+@{
+    
+}
+<div class="d-flex gap-2">
+    <a href="/" class="btn btn-sm btn-secondary">Back</a>
+</div>
+
+@await Component.InvokeAsync("EmployerForm",new EmployerFormModel{IsEdit = true,employer = Model.e})

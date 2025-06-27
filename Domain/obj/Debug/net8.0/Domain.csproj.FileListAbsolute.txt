@@ -1,0 +1,11 @@
+/Users/geordanisb.vega/RiderProjects/RazorPagesTezt/Domain/bin/Debug/net8.0/Domain.deps.json
+/Users/geordanisb.vega/RiderProjects/RazorPagesTezt/Domain/bin/Debug/net8.0/Domain.dll
+/Users/geordanisb.vega/RiderProjects/RazorPagesTezt/Domain/bin/Debug/net8.0/Domain.pdb
+/Users/geordanisb.vega/RiderProjects/RazorPagesTezt/Domain/obj/Debug/net8.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/geordanisb.vega/RiderProjects/RazorPagesTezt/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache
+/Users/geordanisb.vega/RiderProjects/RazorPagesTezt/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
+/Users/geordanisb.vega/RiderProjects/RazorPagesTezt/Domain/obj/Debug/net8.0/Domain.csproj.CoreCompileInputs.cache
+/Users/geordanisb.vega/RiderProjects/RazorPagesTezt/Domain/obj/Debug/net8.0/Domain.dll
+/Users/geordanisb.vega/RiderProjects/RazorPagesTezt/Domain/obj/Debug/net8.0/refint/Domain.dll
+/Users/geordanisb.vega/RiderProjects/RazorPagesTezt/Domain/obj/Debug/net8.0/Domain.pdb
+/Users/geordanisb.vega/RiderProjects/RazorPagesTezt/Domain/obj/Debug/net8.0/ref/Domain.dll

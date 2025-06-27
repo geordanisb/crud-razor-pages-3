@@ -1,0 +1,52 @@
+﻿@page "/"
+@using Application.Interfaces
+@using Microsoft.AspNetCore.Components.Web
+@using UI.ViewComponents;
+@model Index
+@inject IEmployerRepository EmployerRepository
+
+@{
+    
+    <a href="/add-employer" class="btn btn-success">Add Employer</a>
+    @await Component.InvokeAsync("EmployersStatusDetails")
+    <table class="table table-bordered table-striped">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Area</th>
+            <th>Start Date</th>
+            <th>Is Active?</th>
+            <th>⚙️</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var e in Model.Employers)
+        {
+        <tr>
+            <td>@e.Name</td>
+            <td>@e.Email</td>
+            <td>@e.Area</td>
+            <td>@e.StartDate</td>
+            <td>
+                @if (e.Active==true)
+                {
+                    <span class="">✅</span>
+                }
+                else
+                {
+                    <span>☑️</span>
+                }
+                
+            </td>
+            <td>
+                <a href=@($"/edit-employer/{e.Id}") class="btn btn-primary btn-sm">Edit</a>
+                <a href=@($"/delete-employer/{e.Id}") class="btn btn-warning btn-sm">Delete</a>
+            </td>
+        </tr>
+        } 
+        </tbody>
+    </table>
+       
+    
+}
