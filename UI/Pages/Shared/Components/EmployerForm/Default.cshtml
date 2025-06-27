@@ -9,22 +9,22 @@
             
         <div class="col-sm-12 d-flex flex-column gap-2 ">
             <label for="name">Name</label>
-            <input type="text" name="name" id="name" value=@(Model?.employer?.Name) />
+            <input type="text" name="name" id="name" value="@(Model?.employer?.Name)"  />
         </div>
             
         <div class="col-sm-12 d-flex flex-column gap-2 ">
             <label for="email">Email</label>
-            <input type="text" name="email" id="email" value=@(Model?.employer?.Email) />
+            <input type="text" name="email" id="email" value="@(Model?.employer?.Email)" />
         </div>
             
         <div class="col-sm-12 d-flex flex-column gap-2 ">
             <label for="area">Area</label>
-            <input type="text" name="area" id="area" value=@(Model?.employer?.Area) />
+            <input type="text" name="area" id="area" value="@(Model?.employer?.Area)" />
         </div>
             
         <div class="col-sm-12 d-flex flex-column gap-2 ">
             <label for="start-date">Start Date</label>
-            <input type="date"  name="startDate" id="startDate" value=@(Model?.employer?.StartDate.ToString("yyyy-MM-dd")) />
+            <input type="date"  name="startDate" id="startDate" value="@(Model?.employer?.StartDate.ToString("yyyy-MM-dd"))" />
         </div>
             
        <div class="col-sm-12 d-flex flex-row gap-2 ">
